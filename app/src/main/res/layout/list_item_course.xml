@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvCourseName"
+        android:text="Coursename"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvTeacherName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:text="Teacher"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvLectures"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+        android:layout_width="match_parent"
+        android:text="Lectures"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
